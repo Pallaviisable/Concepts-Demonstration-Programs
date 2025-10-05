@@ -10,7 +10,7 @@ A well-organized collection of **concept-based programs** and **practical implem
 ---
 
 ## 📂 Repository Structure
-├── Concepts
+├── Concepts-Demostration-programs
 <br>
 │ ├── C<br>
 │ ├── C++<br>
