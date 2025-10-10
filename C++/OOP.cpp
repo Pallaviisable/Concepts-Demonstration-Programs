@@ -1,0 +1,62 @@
+///////////////////////////////////////////////////////
+//
+//  File name  : OOP.cpp
+//  Description: Demonstrates Object-Oriented Programming
+//               concepts in C++ such as classes, objects,
+//               constructors, and member functions with a
+//               simple example of addition and subtraction.
+//  Author     : Pallavi Sable
+//  Date       : 07/10/2025
+//
+///////////////////////////////////////////////////////
+
+#include<iostream>
+using namespace std;
+
+class Arithematic
+{
+    public:
+        int iNo1;
+        int iNo2;
+
+        Arithematic()
+        {
+            iNo1 = 0;
+            iNo2 = 0;
+        }
+
+        Arithematic(int A, int B)
+        {
+            iNo1 = A;
+            iNo2 = B;
+        }
+
+        int Addition()
+        {
+            int iAns = 0;
+            iAns = iNo1 + iNo2;
+            return iAns; 
+        }
+
+        int Substraction()
+        {
+            int iAns = 0;
+            iAns = iNo1 - iNo2;
+            return iAns; 
+        }
+};
+
+int main()
+{
+    Arithematic aobj1(11,10);
+
+    int iRet = 0;
+
+    iRet = aobj1.Addition();
+    cout<<"Addition is : "<<iRet<<"\n";
+
+    iRet = aobj1.Substraction();
+    cout<<"Substraction is : "<<iRet<<"\n";
+    
+    return 0;
+}
