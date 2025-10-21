@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////////
 //                                                   
-// File Name    : DemoConstructor.cpp                
-// Description  : Demonstrates constructor overloading
+// File Name    : ConstructorDefaultX.cpp                
+// Description  : Demonstrates parameterised Constructor
 //                with default parameters in a class 
 // Author       : Pallavi Sable                      
 // Date         : 10/10/2025            
@@ -17,7 +17,8 @@ class Demo
         int iNo1;
         int iNo2;
 
-        Demo(int a = 0, int b = 0)
+        Demo(int a = 0, int b = 0)//Parameterised constructor 
+                                  //with default arguments
         {
             this->iNo1 = a;
             this->iNo2 = b;
